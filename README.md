@@ -22,7 +22,12 @@ This project includes a **Laravel 12** backend and a **Next.js 15** frontend.
     ```sh
     composer install
     ```
-3. **Update `.env` with your database credentials and other settings**
+3. **Configure environment variables:**
+    - Copy the example environment file:
+      ```sh
+      cp .env.example .env
+      ```
+    - Open the `.env` file and update the database credentials and any other necessary settings (e.g., `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`) to match your local environment.
 
 4. **Generate the application key:**
     ```sh
